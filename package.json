@@ -4,12 +4,16 @@
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
   "files": [
-    "dist",
-    "src"
+    "dist"
   ],
   "engines": {
     "node": ">=10"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DodyDharma440/my-ui.git"
+  },
+  "homepage": "https://github.com/DodyDharma440/my-ui#readme",
   "scripts": {
     "start": "tsdx watch",
     "build": "tsdx build",
@@ -35,8 +39,8 @@
     "singleQuote": true,
     "trailingComma": "es5"
   },
-  "name": "my-ui",
-  "author": "DodyDharma440",
+  "name": "@dodidharma/my-ui",
+  "author": "Dodi Aditya",
   "module": "dist/my-ui.esm.js",
   "size-limit": [
     {
